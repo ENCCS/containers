@@ -196,7 +196,6 @@ containers. Once this high-level configuration has been defined, you
 can use single commands to start and stop the orchestrated set of
 containers.
 
-
 `Kubernetes <https://kubernetes.io>`_ is an open source framework
 that provides similar functionality to Docker Compose. Its particular
 strengths are that is platform independent and can be used with many

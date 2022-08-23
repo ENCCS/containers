@@ -47,12 +47,17 @@ Introduction to Containers
    mang_contain
    create_contain
    compx_contain
-   rep_gran
-   pwd_exmps
    singlrty_start
    work_contain
    build_contain
    mpi_contain
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Optional
+
+   rep_gran
+   pwd_exmps
 
 .. toctree::
    :maxdepth: 1
