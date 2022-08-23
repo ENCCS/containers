@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "LESSON NAME"
-copyright = "2021, The contributors"
-author = "The contributors"
+project = "Introduction to Containers"
+copyright = "2022, Hossein Ehteshami and individual contributors."
+author = "Hossein Ehteshami"
 github_user = "ENCCS"
 github_repo_name = ""  # auto-detected from dirname if blank
 github_version = "main"
