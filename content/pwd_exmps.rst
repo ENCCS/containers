@@ -15,7 +15,7 @@ sub-directory called linux_tweet_app.
   git clone https://github.com/dockersamples/linux_tweet_app
 
 Task 1: Run some simple Docker containers
-_________________________________________
+-----------------------------------------
 
 There are different ways to use containers. These include:
 
@@ -78,7 +78,7 @@ Docker image that executes a script to configure something. Anyone can execute
 that task just by running the container - they don’t need the actual scripts or configuration information.
 
 Run an interactive Ubuntu container
-___________________________________
+-----------------------------------
 
 You can run a container based on a different version of Linux than is running on
 your Docker host.
@@ -155,7 +155,7 @@ You can run a container and verify all the steps you need to deploy your app,
 and capture them in a Dockerfile.
 
 Run a background MySQL container
-________________________________
+--------------------------------
 
 Background containers are how you’ll run most applications. Here’s a simple example using MySQL.
 
@@ -288,7 +288,7 @@ Background containers are how you’ll run most applications. Here’s a simple 
     exit
 
 Task 2: Package and run a custom app using Docker
-_________________________________________________
+-------------------------------------------------
 
 In this step you’ll learn how to package your own apps as Docker images using a Dockerfile.
 
@@ -419,7 +419,7 @@ that allows you to send a tweet.
     docker container rm --force linux_tweet_app
 
 Task 3: Modify a running website
-________________________________
+--------------------------------
 
 When you’re actively working on an application it is inconvenient to have to stop
 the container, rebuild the image, and run a new version every time you make a change
@@ -512,7 +512,7 @@ To show this, stop the current container and re-run the ``1.0`` image without a 
     docker rm --force linux_tweet_app
 
 Update the image
-_________________
+----------------
 
 To persist the changes you made to the index.html file into the image,
 you need to build a new version of the image.
@@ -551,7 +551,7 @@ you need to build a new version of the image.
     alpine                         latest              76da55c8019d        3 weeks ago         3.97MB
 
 Test the new version
-____________________
+--------------------
 
   1. Run a new container from the new version of the image.
 
@@ -591,7 +591,7 @@ ____________________
   4. View the old version of the website.
 
 Push your images to Docker Hub
-______________________________
+------------------------------
 
   1. List the images on your Docker host.
 

@@ -85,12 +85,10 @@ practical advice.
 
 See also
 --------
-Docker provides plenty of educational materials for users. Therefore, checking `Docker official website <https://docs.docker.com/get-started/>`_
-is highly recommended. The same can be stated about `Singularity <https://sylabs.io/guides/latest/user-guide/>`_
-, where one can find many compelling examples with relevant details.
-
-TensorFlow and Horovorod documentation are also good sources of learning about commands
-and their proper use.
+Docker provides plenty of educational materials for users. Therefore, 
+checking `Docker official website <https://docs.docker.com/get-started/>`_
+is highly recommended. The same can be stated about `Singularity <https://sylabs.io/guides/latest/user-guide/>`_, 
+where one can find many compelling examples with relevant details.
 
 Credits
 -------
@@ -102,9 +100,8 @@ license <http://opensource.org/licenses/mit-license.html>`_. We have
 copied and adapted most of their license text.
 
 Materials from the below references have been used in various parts of this course.
+
   - The Carpentries lesson on `"Reproducible Computational Environments Using Containers: Introduction to Docker and Singularity" <https://epcced.github.io/2020-12-08-Containers-Online/>`_
-  - `TensorFlow documentation <https://www.tensorflow.org/guide/distributed_training>`_
-  - `Horovod documentation <https://horovod.readthedocs.io/en/stable/>`_
 
 Instructional Material
 ^^^^^^^^^^^^^^^^^^^^^^

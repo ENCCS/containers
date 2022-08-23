@@ -4,7 +4,7 @@ Working with Singularity containers
 ===================================
 
 Singularity's image cache
-_________________________
+-------------------------
 
 While Singularity doesn't have a local image repository in the same
 way as Docker, it does cache downloaded image files. As we saw in the
@@ -302,7 +302,7 @@ on the host Linux system and in a Singularity container:
       you look at your home directory on the host system.
 
 Using Docker images with Singularity
-____________________________________
+------------------------------------
 
 Singularity can also start containers from Docker images, opening up
 access to a huge number of existing container images available on
