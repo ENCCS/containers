@@ -17,7 +17,7 @@ more detail.
    best practices will likely evolve in the near future.
 
 Reproducibility
-_______________
+---------------
 
 By *reproducibility* here we mean the ability of someone else (or your
 future self) being able to reproduce what you did computationally at a
@@ -43,7 +43,7 @@ with reproducibility include:
   reproduce and build on your work.
 
 Sharing images
-______________
+--------------
 
 As we have already seen, the Docker Hub provides a platform for
 sharing images publicly. Once you have uploaded an image, you can
@@ -164,7 +164,7 @@ extremes.
             containers if they get out of sync
 
 Container Orchestration
-_______________________
+-----------------------
 
 Although you can certainly manage research workflows that use multiple
 containers manually, there are a number of container orchestration
