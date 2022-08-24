@@ -3,11 +3,8 @@
 Running MPI parallel jobs using Singularity containers
 ======================================================
 
-Running MPI parallel codes with Singularity containers
-______________________________________________________
-
 MPI overview
-++++++++++++
+------------
 
 `MPI (Message Passing Interface) <https://en.wikipedia.org/wiki/Message_Passing_Interface>`_
 is a widely used standard for parallel programming. It is used for
@@ -81,7 +78,7 @@ Singularity image containing a small MPI application that can then be
 run using the hybrid model.
 
 Building and running a Singularity image for an MPI code
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------------------------------------------------------
 
 Building and testing an image
 +++++++++++++++++++++++++++++
@@ -249,7 +246,7 @@ example, ``startup/osu_hello``, ``collective/osu_allgather``,
       not set.
 
 Running Singularity containers via MPI
-++++++++++++++++++++++++++++++++++++++
+--------------------------------------
 
 Assuming the above tests worked, we can now try undertaking a parallel run of
 one of the OSU benchmarking tools within our container image.
@@ -431,7 +428,7 @@ running a benchmark that uses multiple processes, for example try
       for building/running MPI applications through Singularity.
 
 A simpler MPI example
-+++++++++++++++++++++
+---------------------
 
 While the OSU benchmark is an impressive test that shows how one can use containers
 with MPI launcher, it might obscure the structure behind the whole setup. Let's take a
