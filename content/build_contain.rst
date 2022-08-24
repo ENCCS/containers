@@ -1016,7 +1016,7 @@ details all the sections and provides an example definition file that
 makes use of all the sections.
 
 Additional Singularity features
-_______________________________
+-------------------------------
 
 Singularity has a wide range of features. You can find full details in
 the `Singularity User Guide
